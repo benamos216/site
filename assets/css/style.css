@@ -1,5 +1,9 @@
 body {
     font-family: 'Carrois Gothic', sans-serif;
-    color: white;
-    background-color: black;
+    color: #858e8d;
+    background-color: #151d55;
+}
+
+.progress {
+    --bs-progress-bar-bg: #858e8d;
 }
