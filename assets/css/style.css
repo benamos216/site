@@ -1,3 +1,4 @@
+/* Site wide styling */
 body {
     font-family: 'Carrois Gothic', sans-serif;
     color: #6DE322;
@@ -28,3 +29,14 @@ a:hover {
     color: #E3784F;
 }
 
+/* Gallery styling */
+.photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+.photos > img {
+    width: 100%;
+}
